@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/inventory")
+@app.get(/)
 def check_inventory():
     return {"message": "Medical inventory data here!"}
 
